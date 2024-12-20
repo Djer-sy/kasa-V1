@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  color: #ff6060;
+  font-weight: 500;
+  gap: 2rem;
+}
+
+.navbar_logo {
+  margin-right: auto;
+
+}
