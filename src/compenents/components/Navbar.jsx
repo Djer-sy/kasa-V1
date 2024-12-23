@@ -6,10 +6,14 @@ function Navbar() {
     <nav className="navbar">
       {" "}
       <div className="navbar_logo">
-        <img src="logo.png" alt="logo" />
+        <img src="logo2.png" alt="logo" className="logo" />
       </div>
-      <div>Acceuil</div>
-      <div>A Propos</div>
+      <div className="acceuil">
+        <a href="#">Acceuil</a>
+      </div>
+      <div>
+        <a href="#">A Propos</a>
+      </div>
     </nav>
   );
 }
