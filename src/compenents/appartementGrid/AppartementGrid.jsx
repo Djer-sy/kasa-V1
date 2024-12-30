@@ -1,5 +1,5 @@
 import React from "react";
-import "./AppartementGrid.css";
+import "./appartementGrid.css";
 import locations from "../../data/locations.json";
 import { Link } from "react-router-dom";
 
@@ -10,7 +10,7 @@ function ApparetementGrid() {
         return (
           <article key={location.id} >
             <Link className="locationCard" to={`/location/${location.id}`}>
-              <img src={location.cover} alt={`Image de ${location.title}`} />
+              <img className="imageLocation" src={location.cover} alt={`Image de ${location.title}`} />
               <h2>
                 {location.title}
               </h2>
