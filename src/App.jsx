@@ -1,18 +1,27 @@
 import React from "react";
-import Navbar from "./compenents/components/Navbar.jsx";
+import { Routes, Route, Link } from "react-router-dom";
+import Navbar from "./compenents/navbar/Navbar.jsx";
 import "./App.css";
-import Banner from "./compenents/components/Banner.jsx";
-import ApparetementGrid from "./compenents/components/AppartementGrid.jsx";
-import Container from "./compenents/components/main.jsx";
+import Banner from "./compenents/banner/Banner.jsx";
+import AppartementGrid from "./compenents/appartementGrid/AppartementGrid.jsx";
+import Container from "./compenents/container/Container.jsx";
+import About from "./compenents/about/About.jsx"; 
 
 function App() {
   return (
     <div>
       <Navbar />
-      <main>
-        <Banner />
-        <ApparetementGrid />
-      </main>
+      <Container>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Banner />
+              <AppartementGrid />
+            </>
+          } />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Container>
     </div>
   );
 }
