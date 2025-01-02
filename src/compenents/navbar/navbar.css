@@ -4,7 +4,7 @@
   padding: 2rem 0;
   color: black;
   font-weight: 400;
-  gap: 2rem;
+  gap: 1.5rem;
   text-decoration: none;
 }
 
@@ -12,6 +12,10 @@
   text-decoration: underline;
   cursor: pointer;
   color: #ff6060;
+}
+
+.navbar a.active {
+  text-decoration: underline;
 }
 
 a {
@@ -22,7 +26,7 @@ a {
   text-decoration: none;
 }
 
-.navbar_logo {
+.navbar>*:first-child {
   margin-right: auto;
 
 }

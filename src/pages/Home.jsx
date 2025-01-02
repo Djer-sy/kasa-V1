@@ -5,10 +5,10 @@ import Container from "../compenents/container/Container";
 
 function Home() {
   return (
-      <Container>
-        <Banner />
-        <ApparetementGrid />
-      </Container>
+    <>
+      <Banner />
+      <ApparetementGrid />
+    </>
   );
 }
 
