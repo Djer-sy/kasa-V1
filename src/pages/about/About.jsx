@@ -4,9 +4,13 @@ import "./about.css";
 
 function About() {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <>
+      <Banner/>
+      <AppartmentDescription />
+      <AppartmentDescription />
+      <AppartmentDescription />
+      <AppartmentDescription />
+    </>
   )
 }
 

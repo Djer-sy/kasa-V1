@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "../compenents/banner/Banner.jsx";
-import ApparetementGrid from "../compenents/appartementGrid/AppartementGrid";
-import Container from "../compenents/container/Container";
+import Banner from "../components/banner/Banner.jsx";
+import ApparetementGrid from "../components/appartementGrid/AppartementGrid";
+import Container from "../components/container/Container";
 
 function Home() {
   return (
