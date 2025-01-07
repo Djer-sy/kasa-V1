@@ -5,42 +5,41 @@ import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
 import Container from "../container/Container";
 import About from "../../pages/about/About.jsx";
+import Location from "../../pages/location/ApartmentPage.jsx";
 
-
-const HeaderFooterLayout = ()=> {
-  return(
-  <>
-  <Navbar />
-  <Container>
-    <Outlet />
-  </Container>
-  <Footer />
-  </>
+const HeaderFooterLayout = () => {
+  return (
+    <>
+      <Navbar />
+      <Container>
+        <Outlet />
+      </Container>
+      <Footer />
+    </>
   );
- };
+};
 
-
- export const router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
-    path:"",
-    element:<HeaderFooterLayout/>,
+    path: "",
+    element: <HeaderFooterLayout />,
     children: [
       {
-        path:"/",
-        element: <Home/>
+        path: "/",
+        element: <Home />,
       },
       {
-        path:"/location/:id",
-        element: <h1>appartement</h1>
+        path: "/location/:id",
+        element: <Location />,
       },
       {
         path: "/about",
-        element: <About/>
+        element: <About />,
       },
       {
         path: "*",
-        element: <h1>404 not found</h1>
+        element: <h1>404 not found</h1>,
       },
-    ]
-  }
- ]);
+    ],
+  },
+]);
