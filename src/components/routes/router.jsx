@@ -5,7 +5,7 @@ import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
 import Container from "../container/Container";
 import About from "../../pages/about/About.jsx";
-import Location from "../../pages/location/ApartmentPage.jsx";
+import Location from "../../pages/location/Page/ApartmentPage.jsx";
 
 const HeaderFooterLayout = () => {
   return (

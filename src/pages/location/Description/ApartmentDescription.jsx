@@ -21,17 +21,6 @@ function ApartmentDescription() {
           ad qui, sed at pariatur excepturi, deserunt cupiditate voluptatem.
         </p>
       </div>
-      <div className="apartment_description">
-        <p>Description</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nam
-          repellat ex praesentium rem illo deserunt provident delectus
-          voluptates distinctio, eius, itaque ratione tenetur veritatis ipsa
-          assumenda repudiandae quam aliquam quaerat repellendus recusandae
-          natus ducimus accusantium porro! Blanditiis, vitae praesentium fugiat
-          ad qui, sed at pariatur excepturi, deserunt cupiditate voluptatem.
-        </p>
-      </div>
     </div>
   );
 }
